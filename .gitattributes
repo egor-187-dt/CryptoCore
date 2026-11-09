@@ -1,0 +1,4 @@
+# Preserve original requirements byte-for-byte, including their existing endings.
+requirements/** -text
+*.py text eol=lf
+*.toml text eol=lf

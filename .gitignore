@@ -1,0 +1,52 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Test, coverage, lint and type checker caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.tox/
+.nox/
+
+# PyCharm / IntelliJ: local IDE settings
+.idea/
+*.iml
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local experiment artifacts (keep requirements and test vectors trackable)
+/artifacts/
+/random_test_data.bin
+/nist_test_data.bin
+/nist_test_data/
+
+# OS and editor temporary files
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*.swo
+*~

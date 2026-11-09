@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools==82.0.1", "wheel==0.46.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cryptocore"
+version = "0.1.0"
+description = "Educational streaming AES-128 command-line tool"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = ["pycryptodome==4.3.0"]
+
+[project.scripts]
+cryptocore = "cryptocore.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

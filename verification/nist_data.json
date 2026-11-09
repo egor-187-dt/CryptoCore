@@ -1,0 +1,9 @@
+{
+  "path": "artifacts/nist/random.bin",
+  "bytes": 12500000,
+  "sha256": "e169eac22e4f6ca86a9254488e72dd6a0c01a37430be3c62b564f9ee01e3d73c",
+  "generator": "cryptocore.csprng.generate_random_bytes -> os.urandom",
+  "planned_sequence_bits": 1000000,
+  "planned_sequences": 100,
+  "sts_run": false
+}
